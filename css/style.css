@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*focus:not(:focus-visible) {
+  outline: none;
+}
+html,
+body {
+  font-size: 62.5%;
+}
+body {
+  background: url(../img/background.jpg);
+}
+.header {
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+.container {
+  margin: 0 auto;
+  width: 113.4rem;
+  align-items: center;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 7.9rem;
+  height: 2.8rem;
+  margin-right: 3.9rem;
+}
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.header__nav a:not(:last-child) {
+  margin-right: 2.4rem;
+}
+.header__socials a {
+  width: 1.7rem;
+  height: 1.6rem;
+}
+.header__socials a:not(:last-child) {
+  margin-right: 2rem;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__menu {
+  display: flex;
+  padding-left: 0px;
+}
+.footer__menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__menu li {
+  list-style: none;
+}
+.footer__menu li:not(:last-child) {
+  margin-right: 2.5rem;
+}
