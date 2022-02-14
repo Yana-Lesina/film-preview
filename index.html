@@ -8,7 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="script/swiper-bundle.js" defer></script>
+  <script src="script/script.js" defer></script>
  
   <title>Batman</title>
 </head>
@@ -80,13 +84,52 @@
         </div>
       </div>
       <h1 class="main__header">Бэтмен</h1>
-      <div class="main__descriptn">
-        После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного
-        возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса
-        Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+      <div class="main-descriptn-wrap">
+        <div class="main__descriptn">
+          После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного
+          возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса
+          Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+        </div>
+        <div class="main__button-play">
+          <div class="main__button-dark">
+            <img src="img/arrow-play.svg" alt="no img">
+          </div>
+        </div>
       </div>
       <a href="#" class="main__button">Купить билеты</a>
-
+      <div class="main-slider_wrap">
+        <div class="main-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="main__slider-slide swiper-slide">
+              <img src="img/card-image-1.jpg" alt="no-img">
+              <span>Трейлер №1</span>
+            </div>
+            <div class="main__slider-slide swiper-slide">
+              <img src="img/card-image-2.jpg" alt="no-img">
+              <span>Трейлер №2</span>
+            </div>
+            <div class="main__slider-slide swiper-slide">
+              <img src="img/card-image-1.jpg" alt="no-img">
+              <span>Трейлер №3</span>
+            </div>
+            <div class="main__slider-slide swiper-slide">
+              <img src="img/card-image-2.jpg" alt="no-img">
+              <span>Трейлер №4</span>
+            </div>
+            <div class="main__slider-slide swiper-slide">
+              <img src="img/card-image-1.jpg" alt="no-img">
+              <span>Трейлер №5</span>
+            </div>
+            <div class="main__slider-slide swiper-slide">
+              <img src="img/card-image-2.jpg" alt="no-img">
+              <span>Трейлер №6</span>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__arrow">
+          <img src="img/arrow.svg" alt="no img">
+        </div>
+      </div>
 
     </div>
   </main>
