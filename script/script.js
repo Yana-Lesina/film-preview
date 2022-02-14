@@ -16,3 +16,8 @@ const swiper = new Swiper('.swiper', {
     }
     }
   });  
+
+
+
+  const modalWindow = query.querySelector('.modal');
+ 
